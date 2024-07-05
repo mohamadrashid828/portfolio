@@ -31,7 +31,7 @@ def send_requst(prompt):
 colm1,colm2=st.columns(2)
 with colm1:
     st.subheader("HI :wave: ")
-    st.title("I'm mohammad rashid")
+    st.title("I'm Mohammad Rashid")
 with colm2:
     st.image("assets/Mohamad.jpg",use_column_width=True)
 
