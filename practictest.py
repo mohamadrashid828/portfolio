@@ -20,7 +20,6 @@ with colm1:
     st.subheader("HI :wave: ")
     st.title("I'm mohammad rashid")
 with colm2:
-    st.image("../assets/Mohamad.jpg",use_column_width=True)
     st.image("assets/Mohamad.jpg",use_column_width=True)
 
 
@@ -49,7 +48,7 @@ x=0;
 for i,coll in enumerate(colls):
     for j in range(3):
         with coll:
-            st.image("assets\Mohamad.jpg",use_column_width=True)
+            st.image("assets/Mohamad.jpg",use_column_width=True)
             x=x+1
 
 st.title(" ")
