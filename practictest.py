@@ -46,7 +46,7 @@ st.title("Mohammad's AI Bot ")
 
 input=st.text_input("Ask anything about me ")
 if  st.button("ASK",use_container_width=400):
-    send_requst( persona+ "Here is the question that the user asked: "+ input)
+    send_requst(( persona+ "Here is the question that the user asked: "+ input))
     st.write(send_requst(input))
 st.title(" ")
 
