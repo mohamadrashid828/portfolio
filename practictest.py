@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 import os
-api_key="AIzaSyBlRXllO5oZcxq-h7YL2z_wHR-70mR2s9w"
+api_key=st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-1.5-flash')
 persona="""You are Mohamad AI bot. You help people answer questions about your self (i.e Mohamad),
