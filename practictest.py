@@ -20,7 +20,9 @@ with colm1:
     st.subheader("HI :wave: ")
     st.title("I'm mohammad rashid")
 with colm2:
-    st.image("..\assets\Mohamad.jpg",use_column_width=True)
+    st.image("../assets/Mohamad.jpg",use_column_width=True)
+    st.image("assets/Mohamad.jpg",use_column_width=True)
+
 
 
 st.title(" ")
